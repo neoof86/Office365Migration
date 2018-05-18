@@ -27,10 +27,10 @@ CheckMig.ps1
 
 ## To Do / Bugs :-
 
-*Sometimes you get an extra line of users if the migration stalls. It doesn’t seem to affect anything but just increase the user CSV but I will work on this
-*I also want to get better errors logging in here and document all the values
-*Create a script that updates emails and UPN's
-*The error of 'You can't use the domain  because it's not an accepted domain for your organization.' may be down to a UPN issue or the fact that the license add failed or it created a mailbox despite having one on prem. I had to remove the license and reset the value to 0 for this user to start the process again
+- Sometimes you get an extra line of users if the migration stalls. It doesn’t seem to affect anything but just increase the user CSV but I will work on this
+- I also want to get better errors logging in here and document all the values
+- Create a script that updates emails and UPN's
+- The error of 'You can't use the domain  because it's not an accepted domain for your organization.' may be down to a UPN issue or the fact that the license add failed or it created a mailbox despite having one on prem. I had to remove the license and reset the value to 0 for this user to start the process again
 
 
 
