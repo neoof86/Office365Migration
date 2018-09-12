@@ -40,7 +40,7 @@ $_.MigStatus = $DesStatus
 echo $_.'UserPrincipalName' | Out-File $LogFile -Append
 Set-MsolUser -UserPrincipalName $_.'UserPrincipalName' -UsageLocation $UsageLocation 2> $TempLogFile
 Get-Content $TempLogFile | Out-File $LogFile -Append
-Set-MsolUserLicense -UserPrincipalName $_.'UserPrincipalName' -AddLicenses '$lictype' 2> $TempLogFile
+Set-MsolUserLicense -UserPrincipalName $_.'UserPrincipalName' -AddLicenses $lictype 2> $TempLogFile
 Get-Content $TempLogFile | Out-File $LogFile -Append
 
 }
