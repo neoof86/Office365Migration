@@ -13,7 +13,7 @@ $xml = [XML](Get-Content .\migconfig.xml)
 
 $UsageLocation = $xml.variables.UsageLocation
 $lictype = $xml.variables.lictype
-
+echo $lictype
 
 $UserCredential = $Host.ui.PromptForCredential("Need credentials", "Please enter an Office 365 Admin user name and password.", "", "NetBiosUserName")
 Connect-MsolService -Credential $UserCredential
