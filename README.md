@@ -6,7 +6,16 @@
 
 If you will want to perform all this from one machine you will need to have the Exchange management PowerShell and the Azure Online PowerShell
 Guides on this can be found below
-https://technet.microsoft.com/en-us/library/bb232090(v=exchg.160).aspxhttps://onlinehelp.coveo.com/en/ces/7.0/administrator/installing_the_windows_azure_ad_module_for_windows_powershell.htm
+
+Newer Clients:-
+https://docs.microsoft.com/en-us/office365/enterprise/powershell/connect-to-office-365-powershell
+
+Older Clients:-
+https://technet.microsoft.com/en-us/library/bb232090(v=exchg.160).aspx
+
+
+Exchange Tools:-
+https://onlinehelp.coveo.com/en/ces/7.0/administrator/installing_the_windows_azure_ad_module_for_windows_powershell.htm
 
 ## Usage:-
 
